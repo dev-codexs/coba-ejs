@@ -23,4 +23,4 @@ app.get('/main', function(req, res) {
   res.render(__dirname + "/main.html", {name:name, node: 'Node JS'});
 });
 
-app.listen(3000)
+app.listen(8080)
